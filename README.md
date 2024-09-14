@@ -1,1 +1,1 @@
-# hack-the-template website
+# hack the template website
