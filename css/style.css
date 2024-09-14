@@ -324,7 +324,6 @@ h2.products-h2 {
 
 .countdown-box {
 	border: solid 0.1rem var(--main-color);
-	height: 4rem;
 	margin-right: 0.25rem;
 	display: flex;
 	align-items: center;
@@ -337,7 +336,7 @@ h2.products-h2 {
 .countdown-box > p {
 	margin: 0;
 	height: 100%;
-	padding-top: 1rem;
+	padding: 1rem 0 0.5rem;
 	font-size: 0.85rem;
 }
 
