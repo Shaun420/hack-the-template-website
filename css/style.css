@@ -195,7 +195,7 @@ h2.products-h2 {
 	pointer-events: none;
 }
 
-.card-body h5, h4 {
+.card-body h5, .card-body h4 {
 	font-weight: 800;
 	color: black;
 }
@@ -349,6 +349,12 @@ h2.products-h2 {
 	display: inline-block;
 }
 
+.footer-div {
+	padding: 3rem;
+	background-color: #000;
+	color: white;
+}
+  
 @media (min-width: 992px) {
 	.navbar-brand {
 		margin-left: 5rem !important;
@@ -412,5 +418,8 @@ h2.products-h2 {
 		left: 25%;
 		text-align: center;
 		width: 50%;
+	}
+	.footer-div {
+		padding: 10rem;
 	}
 }
