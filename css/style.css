@@ -48,7 +48,7 @@
 }
 
 .navbar-brand img {
-	width: 50% !important;
+	width: 75% !important;
 	user-select: none;
 }
 
@@ -224,6 +224,9 @@ h2.products-h2 {
 	border-radius: 2rem;
 	padding: 0.5rem 1.5rem;
 	width: max-content;
+	--bs-btn-active-border-color: #000;
+	--bs-btn-hover-color: var(--main-color);
+	--bs-btn-hover-border-color: var(--main-color);
 }
 .card-btn {
 	margin: 1rem auto;
@@ -231,7 +234,7 @@ h2.products-h2 {
 .offer-btn {
 	margin: 1rem 0;
 }
-
+/*
 .card-btn:hover, .offer-btn:hover {
 	border: 0.15rem solid var(--main-color);
 	color: #000;
@@ -248,7 +251,7 @@ h2.products-h2 {
 .card-btn > .material-symbols-outlined, .offer-btn > .material-symbols-outlined {
 	padding-right: 0.4rem;
 }
-
+*/
 .card-btn:hover > .material-symbols-outlined, .offer-btn:hover > .material-symbols-outlined {
 	color: var(--fill-color);
 }
@@ -357,16 +360,24 @@ h2.products-h2 {
 }
 
 .footer-div {
-	padding: 3rem;
+	padding: 1.5rem;
 	background-color: #051922;
 	color: white;
+}
+
+.footer-div > .row > div {
+	padding-top: 2rem;
+}
+
+.footer-about-us-div {
+	flex: 100%;
 }
 
 .footer-div-br {
 	display: block;
 	width: 10%;
 	border-bottom: 0.15rem solid var(--main-color);
-	margin: 2rem 0;
+	margin: 1.25rem 0;
 }
 
 .footer-div h4 {
@@ -416,10 +427,6 @@ h2.products-h2 {
 	background-color: #012738;
 	border: 0;
 	color: white;
-}
-
-#emailAddress:focus-visible {
-	border-color: var(--fill-color);
 }
 
 .email-div button {
@@ -501,5 +508,14 @@ h2.products-h2 {
 	}
 	.footer-div {
 		padding: 10rem;
+	}
+	.footer-div > .row > div {
+		padding-top: 0;
+	}
+	.footer-about-us-div {
+		flex: 1 0 0%;
+	}
+	.footer-div-br {
+		margin: 2rem 0;
 	}
 }
